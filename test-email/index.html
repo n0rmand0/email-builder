@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> </title>
+
+</head>
+<body style="color: #555555; font-family: 'Raleway', helvetica, sans-serif; margin: 0; padding: 0;">
+
+<style type="text/css">
+
+/* Email framework -------------------- */
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Raleway', helvetica, sans-serif;
+  color: #555555;
+}
+
+img{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border:0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  line-height:100%;
+  outline: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.preheader {
+  width: 100%;
+  background: #eee;
+  font-size: .8em;
+}
+
+.preheader a,
+.preheader span {
+  color: #000;
+  /*padding: 10px;*/
+}
+
+.preheader__link{
+  width: 46%;
+  padding: 2%;
+  float: left;
+  text-align: right;
+}
+
+.preheader__subject {
+  width: 46%;
+  padding: 2%;
+  float: left;
+}
+
+.span-12 {
+  float: left;
+  width: 100%;
+}
+
+.span-11 {
+  float: left;
+  width: 550px;
+}
+
+.span-10{
+  float: left;
+  width: 500px;
+}
+
+.span-9{
+  float: left;
+  width: 450px;
+}
+
+.span-8{
+  float: left;
+  width: 400px;
+}
+
+.span-7,
+.span-7s{
+  float: left;
+  width: 350px;
+}
+
+.span-6,
+.span-6s{
+  float: left;
+  width: 300px;
+}
+
+.span-5,
+.span-5s{
+  float: left;
+  width: 250px;
+}
+
+.span-4,
+.span-4s {
+  float: left;
+  width: 200px;
+}
+
+.span-3,
+.span-3s {
+  float: left;
+  width: 150px;
+}
+
+.span-2,
+.span-2s {
+  float: left;
+  width: 100px;
+}
+
+.span-1 {
+  float: left;
+  width: 50px;
+}
+
+/* base classes */
+.center {
+  margin: auto;
+  text-align: center;
+  float: none !important;
+}
+
+p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+p.small {
+  font-size: .8em;
+}
+
+h3{
+  font-weight: 400;
+}
+
+hr{
+  border: none;
+  border-top: solid 1px #ccc;
+}
+
+/* components -------------------- */
+.content {
+  background: #ccc;
+}
+
+
+/* SMALL SCREENS -------------------- */
+
+@media screen and (max-width: 500px){
+
+  .container {
+    width: 100% !important;
+  }
+
+  .span-12,
+  .span-11,
+  .span-10,
+  .span-9,
+  .span-8,
+  .span-7,
+  .span-6,
+  .span-5,
+  .span-4 {
+    width: 100% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+
+  /*2 col*/
+  .span-3,
+  .span-6s {
+    width: 50% !important;
+    padding:  0% !important;
+  }
+
+  .span-4s  {
+    width: 33.33% !important;
+    padding:  0% !important;
+  }
+
+  .span-3s  {
+    width: 25% !important;
+    padding:  0% !important;
+  }
+
+  .span-5s  {
+    width: 41.45% !important;
+    padding:  0% !important;
+  }
+
+  .span-7s  {
+    width: 57.45% !important;
+    padding:  0% !important;
+  }
+
+  /*hidden col*/
+  .mobile-hide {
+    display: none !important;
+  }
+
+  /* components -------------------- */
+
+}
+</style>
+
+
+<!-- SUBJECT AND BROWSER LINK -->
+<div class="preheader browser-hide" style="background: #eee; font-size: .8em; width: 100%;">
+  <div class="container" style="margin: auto; overflow: hidden; width: 600px;">
+    <div class="preheader__subject" style="float: left; padding: 2%; width: 46%;">
+      <span style="color: #000;">
+        <!--  INLINE SUBJECT HERE:  -->
+        Inline Subject Preview
+      </span>
+    </div>
+    <div class="preheader__link" style="float: left; padding: 2%; text-align: right; width: 46%;">
+      <a href="serverAdress/test-email/" style="color: #000;">View in browser</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="container" style="margin: auto; overflow: hidden; width: 600px;">
+  <div class="span-12 content" style="background: #ccc; float: left; width: 100%;">
+    <a href="/" alt="Home">
+      <img src="serverAdress/test-email/images/logo.jpg" alt="Logo" style="border: 0; display: block; height: auto; line-height: 100%; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none; width: 100%;">
+    </a>
+  </div>
+</div>
+
+
+<!-- MAILCHIMP FOOTER -->
+<div class="container" style="margin: auto; overflow: hidden; width: 600px;">
+  <div class="footer-subscription browser-hide">
+    <h3 style="font-weight: 400;">
+      <br>
+      This email was sent to *|EMAIL|*
+      <br>
+      <a href="*|UPDATE_PROFILE|*">Update Subscription Preferences</a>
+    </h3>
+
+    <p style="font-size: 14px; line-height: 1.5;">
+      <a href="*|ABOUT_LIST|*">Why did I get this? </a>
+      <a href="*|UNSUB|*">Unsubscribe from this list</a>
+
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
