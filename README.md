@@ -1,5 +1,5 @@
 # Email Builder
-#### Email framework with gulp tasks to build, inline css, and deploy for MailChimp campaigns
+#### Email framework with gulp tasks to locally serve, inline css, compress images, and deploy for MailChimp campaigns
 
 ## Setup
 

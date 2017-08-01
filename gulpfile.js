@@ -5,13 +5,13 @@ var email = 'test-email'
 
 // config
 var publicURL = '';
-var deployHost= '',
-var deployUser= '',
-var deployPass= '',
-var deployPort= '',
+var deployHost= '';
+var deployUser= '';
+var deployPass= '';
+var deployPort= '';
 var deployRemotePath= '';
 
-// 
+//
 var emailURL = publicURL+"/"+email;
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
